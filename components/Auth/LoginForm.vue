@@ -1,5 +1,5 @@
 <template>
-  <div class="form">
+  <form class="form">
     <CustomInput
       v-model="form.email"
       type="email"
@@ -120,7 +120,7 @@
         Google
       </TheButton>
     </div>
-  </div>
+  </form>
 </template>
 
 <script>

@@ -35,6 +35,6 @@ export default {
 }
 
 .title {
-  margin-bottom: 36px;
+  margin: 36px 0;
 }
 </style>

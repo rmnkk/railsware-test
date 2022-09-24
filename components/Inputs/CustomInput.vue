@@ -133,6 +133,7 @@ export default {
   outline: none;
   border: 1px solid $input-border-void;
   border-radius: 5px;
+  font-size: 16px;
   color: $default;
 
   &_with-icon {

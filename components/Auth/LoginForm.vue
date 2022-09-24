@@ -1,5 +1,5 @@
 <template>
-  <form class="form">
+  <form class="form" @submit.prevent="onSubmit">
     <CustomInput
       v-model="form.email"
       type="email"
@@ -136,6 +136,11 @@ export default {
         password: '',
       },
     }
+  },
+  methods: {
+    onSubmit() {
+      console.log('submitted')
+    },
   },
 }
 </script>
